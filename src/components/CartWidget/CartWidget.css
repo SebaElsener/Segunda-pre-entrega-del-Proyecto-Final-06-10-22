@@ -1,0 +1,8 @@
+
+.imgCarrito{
+    transition: all .5s;
+}
+
+.imgCarrito:hover{
+    transform: rotate(-8deg) scale(1.1);
+}

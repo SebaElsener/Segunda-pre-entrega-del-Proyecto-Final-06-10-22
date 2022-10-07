@@ -1,0 +1,34 @@
+
+.itemCountContainer{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    margin: 20px 0px;
+}
+
+.sumar,
+.cantidad,
+.restar{
+    margin: 0px 10px;
+    user-select: none;
+}
+
+.sumar,
+.restar{
+    cursor: pointer;
+}
+
+.sinStock{
+    display: none;
+}
+
+.comprar{
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin-bottom: 15px;
+}
